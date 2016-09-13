@@ -1,0 +1,7 @@
+﻿
+
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+ 
+To verify the package, download from the URL, and make sure the md5 value is 75a3266e56311a23b13c29dfc3b9693f
