@@ -4,7 +4,7 @@ $ErrorActionPreference = 'Stop';
 
 $packageName= 'cytoscape'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'http://chianti.ucsd.edu/cytoscape-3.4.0/Cytoscape_3_4_0_windows_64bit.exe'
+$url        = 'https://github.com/cytoscape/cytoscape/releases/download/3.7.1/Cytoscape_3_7_1_windows_64bit.exe'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -16,7 +16,7 @@ $packageArgs = @{
   validExitCodes= @(0)
 
   softwareName  = 'Cytoscape*'
-  checksum      = '75a3266e56311a23b13c29dfc3b9693f'
+  checksum      = 'F0232B7234E5A43303E1ECC2D73A7F96'
   checksumType  = 'md5'
 }
 
